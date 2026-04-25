@@ -1,7 +1,6 @@
 {
   "type": "PTE",
   "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
-  "githubRunner": "ubuntu-latest",
   "nextMajorSchedule": "0 0 1 * *",
   "nextMinorSchedule": "0 0 1,15 * *",
   "currentSchedule": "0 0 1,15 * *",
