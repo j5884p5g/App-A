@@ -1,0 +1,5 @@
+$f = "Before-Build.ps1 "
+$ext = [System.IO.Path]::GetExtension($f)
+Write-Host "Extension: '$ext'"
+$disallowedExtensions = @('.ps1', '.psm1', '.yml', '.yaml')
+Write-Host "Is disallowed: $($ext -in $disallowedExtensions)"
